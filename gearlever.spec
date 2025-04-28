@@ -13,6 +13,7 @@ BuildSystem:	meson
 BuildRequires:	meson
 BuildRequires:	gettext
 BuildRequires:	pkgconfig(gio-2.0)
+BuildRequires:	gtk-update-icon-cache
 
 %description
 %summary
