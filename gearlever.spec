@@ -12,6 +12,7 @@ Group:		Package Management
 BuildSystem:	meson
 BuildRequires:	meson
 BuildRequires:	gettext
+BuildRequires:	pkgconfig(gio-2.0)
 
 %description
 %summary
