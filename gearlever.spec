@@ -8,8 +8,10 @@ Summary:	Manage AppImages with ease
 URL:		https://github.com/mijorus/gearlever
 License:	GPL-3.0
 Group:		Package Management
-BuildRequires:	meson
+
 BuildSystem:	meson
+BuildRequires:	meson
+BuildRequires:	gettext
 
 %description
 %summary
