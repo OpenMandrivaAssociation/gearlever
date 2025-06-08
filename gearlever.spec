@@ -16,10 +16,10 @@ BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	gtk-update-icon-cache
 BuildRequires:	desktop-file-utils
 
-Requires:	python%{pyver}dist(gi)
-Requires:	python%{pyver}dist(dbus)
+Requires:	python%{pyver}dist(pygobject)
+Requires:	python%{pyver}dist(pydbus)
 Requires:	%{mklibname adwaita}
-Requires:   python%{pyver}dist(xdg)
+Requires:   python%{pyver}dist(pyxdg)
 Requires:   fcitx-gtk3
 
 
