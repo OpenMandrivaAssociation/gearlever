@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		gearlever
-Version:	3.2.4
+Version:	3.3.0
 Release:	1
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
@@ -15,6 +15,13 @@ BuildRequires:	gettext
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	gtk-update-icon-cache
 BuildRequires:	desktop-file-utils
+
+Requires:	python%{pyver}dist(gi)
+Requires:	python%{pyver}dist(dbus)
+Requires:	%{mklibname adwaita}
+Requires:   python%{pyver}dist(xdg)
+Requires:   fcitx-gtk3
+
 
 %description
 %summary
