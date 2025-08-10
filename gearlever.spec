@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		gearlever
-Version:	3.4.0
+Version:	3.4.1
 Release:	1
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
