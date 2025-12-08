@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		gearlever
-Version:	4.0.3
+Version:	4.1.0
 Release:	1
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
@@ -50,6 +50,7 @@ Requires:   fcitx-gtk3
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/gearlever.mo
 %lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/gearlever.mo
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/gearlever.mo
+%lang(vi) %{_datadir}/locale/vi/LC_MESSAGES/gearlever.mo
 %lang(zh_CN) %{_datadir}/locale/zh_CN/LC_MESSAGES/gearlever.mo
 %{_iconsdir}/*/*/*/it.mijorus.gearlever*
 %{_datadir}/glib-2.0/*/it.mijorus.gearlever.gschema.xml
