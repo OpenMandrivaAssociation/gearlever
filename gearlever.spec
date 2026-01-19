@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		gearlever
-Version:	4.2.1
+Version:	4.2.2
 Release:	1
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
@@ -31,7 +31,7 @@ Requires:   fcitx-gtk3
 
 %files
 %{_bindir}/%{name}
-%{_datadir}/appdata/*
+%{_datadir}/metainfo/it.mijorus.gearlever.metainfo.xml
 %{_datadir}/%{name}
 %{_iconsdir}/hicolor/scalable/actions/*
 %{_datadir}/applications/*
