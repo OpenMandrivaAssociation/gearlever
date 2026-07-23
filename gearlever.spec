@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		gearlever
-Version:	4.5.5
+Version:	4.6.2
 Release:	1
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
@@ -63,6 +63,7 @@ sed -i '1s|^#!/bin/python3|#!/usr/bin/python3|' %{buildroot}%{_bindir}/gearlever
 %lang(pt_BR) %{_datadir}/locale/pt_BR/LC_MESSAGES/gearlever.mo
 %lang(pt_PT) %{_datadir}/locale/pt_PT/LC_MESSAGES/gearlever.mo
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/gearlever.mo
+%lang(sk) %{_datadir}/locale/sk/LC_MESSAGES/gearlever.mo
 %lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/gearlever.mo
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/gearlever.mo
 %lang(vi) %{_datadir}/locale/vi/LC_MESSAGES/gearlever.mo
