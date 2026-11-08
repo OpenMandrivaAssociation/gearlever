@@ -18,6 +18,7 @@ BuildRequires:	desktop-file-utils
 
 Requires:	python%{pyver}dist(pygobject)
 Requires:	python%{pyver}dist(pydbus)
+Requires:	python%{pyver}dist(dbus-python)
 Requires:	python%{pyver}dist(desktop-entry-lib)
 Requires:       python%{pyver}dist(ftputil)
 
