@@ -2,7 +2,7 @@
 
 Name:		gearlever
 Version:	4.6.2
-Release:	2
+Release:	3
 Source0:	https://github.com/mijorus/gearlever/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	Manage AppImages with ease
 URL:		https://github.com/mijorus/gearlever
